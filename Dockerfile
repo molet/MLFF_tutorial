@@ -36,6 +36,9 @@ RUN conda install -y -c conda-forge ncurses
 RUN conda install -y -c conda-forge ambertools
 RUN echo "source /home/ML-FF_tutorial/Programs/miniconda3/amber.sh > /dev/null" >> ~/.bashrc
 
+# Install Quippy
+RUN pip3 install quippy-ase
+
 # Install ASE
 RUN git clone https://gitlab.com/molet/ase.git
 ENV PATH $PATH:/home/ML-FF_tutorial/Programs/ase/bin
