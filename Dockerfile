@@ -27,7 +27,7 @@ RUN conda install -y -c conda-forge ncurses
 RUN conda install -y -c conda-forge ambertools
 RUN echo "source /home/miniconda3/amber.sh > /dev/null" >> ~/.bashrc
 
-# Install
+# Install Python packages
 RUN pip3 install --quiet tqdm
 RUN pip3 install --quiet numpy
 RUN pip3 install --quiet matplotlib
@@ -35,3 +35,6 @@ RUN pip3 install --quiet ase
 RUN pip3 install --quiet nglview
 RUN pip3 install "ipywidgets <8"
 RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+
+# Get the repo
+RUN git clone https://github.com/molet/ML-FF_tutorial.git
