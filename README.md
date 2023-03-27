@@ -4,9 +4,9 @@ This repository includes the [MLFF.ipynb](./MLFF.ipynb) Jupyter notebook for the
 
 There are 3 possibilities to run the notebook:
 
-1. [Locally on your machine](#Running-the-notebook-locally-on-your-machine)
-2. [On Colab](#Running-the-notebook-on-Colab)
-3. [From Docker](#Running-the-notebook-from-Docker)
+1. [Locally on your machine](#-1.-Running-the-notebook-locally-on-your-machine)
+2. [On Colab](#-2.-Running-the-notebook-on-Colab)
+3. [From Docker](#-3.-Running-the-notebook-from-Docker)
 
 ## 1. Running the notebook locally on your machine
 
