@@ -37,4 +37,5 @@ RUN pip3 install "ipywidgets <8"
 RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
 
 # Get the repo
+WORKDIR /home
 RUN git clone https://github.com/molet/ML-FF_tutorial.git
