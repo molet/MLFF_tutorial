@@ -2,7 +2,7 @@
 
 This repository includes the [MLFF.ipynb](./MLFF.ipynb) Jupyter notebook for the Machine Learning-based Force Fields lectures.
 
-There are 3 possibilities to run the notebook:
+We describe 3 ways how you can run this notebook:
 
 1. [Locally on your machine](#1-Running-the-notebook-locally-on-your-machine)
 2. [On Colab](#2-Running-the-notebook-on-Colab)
