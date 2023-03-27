@@ -21,7 +21,7 @@ After installing Jupyter notebook, download the [MLFF.ipynb](./MLFF.ipynb), [ope
 
 It also has a bunch of Python packages pre-installed so it is a convenient way to run the notebook.
 
-Use [this link] to access the Colab version of the notebook.
+Use [this link](https://colab.research.google.com/drive/1bYlVBEH32tVemb_ZC-gNE2ucMHx6sTF1) to access the Colab version of the notebook.
 
 There is a limitation of using this approach as it is currently not supported in Colab to visualize MD trajectories.
 
