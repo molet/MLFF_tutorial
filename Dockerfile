@@ -38,4 +38,4 @@ RUN pip3 install torch torchvision torchaudio --extra-index-url https://download
 
 # Get the repo
 WORKDIR /home
-RUN git clone https://github.com/molet/ML-FF_tutorial.git
+RUN git clone https://github.com/molet/MLFF_tutorial.git
