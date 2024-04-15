@@ -55,7 +55,7 @@ Once you have the Dockerfile on your machine, enter to its directory and build t
 docker build -t mlff_image:latest .
 ```
 
-For M1 Mac series we need to set the target platform to linux/amd64:
+For Mac with Apple silicon series we need to set the target platform to linux/amd64:
 
 ```
 docker build --platform=linux/amd64 -t mlff_image:latest .
