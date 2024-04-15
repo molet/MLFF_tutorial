@@ -65,7 +65,7 @@ These will build the virtual machine `mlff_image` with the tag `latest`. It is a
 
 ### 3.3. Run a Container over the Docker Image
 
-You can run the image inside of a container by using [`docker run`](https://docs.docker.com/engine/reference/commandline/run/) (for M1 Mac add the flag for platform as used in bulding the image, i.e. `--platform=linux/amd64`):
+You can run the image inside of a container by using [`docker run`](https://docs.docker.com/engine/reference/commandline/run/) (for Mac with Apple silicon add the flag for platform as used in bulding the image, i.e. `--platform=linux/amd64`):
 
 ```
 docker run --name=mlff_container --ulimit stack=-1 --publish=9999:9999 --entrypoint /bin/bash --workdir="/home/MLFF_tutorial" --rm -it mlff_image:latest
