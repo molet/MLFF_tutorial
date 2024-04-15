@@ -73,7 +73,7 @@ docker run --name=mlff_container --memory=16g --ulimit stack=-1 --publish=9999:9
 
 In the above command, with the `--name` flag we name the container (as `mlff_container`), `--memory=16g` sets the maximum amount of memory the container can use to 16 GB, `--ulimit stack=-1` will set the stack space unlimited (this is equivalent to run `ulimit -s unlimited` on Linux), `--publish=9999:9999` publishes the port 9999 of the container to the port 9999 of the host (this will be used to access the notebook outside of the container), with `--entrypoint /bin/bash` we use the bash shell, `--workdir="/home/MLFF_tutorial"` specifies the directory we enter, `--rm` removes the container if exists and `-it` makes sure we can use the container interactively.
 
-Note: make sure that Docker has sufficient memory allocation (i.e. at least 16 GB) in its resource settings, otherwise the notebook might run out of memory.
+NOTE: make sure that Docker has sufficient memory allocation (i.e. at least 16 GB) in its resource settings, otherwise the notebook might run out of memory.
 
 ### 3.4. Running Jupyter Notebook from a Docker Container
 
