@@ -2,7 +2,7 @@
 
 This repository includes the [MLFF.ipynb](./MLFF.ipynb) Jupyter notebook for the Machine Learning-based Force Fields lectures.
 
-We describe 3 ways how you can run this notebook:
+We describe 3 ways you can run this notebook:
 
 1. [Locally on your machine](#1-Running-the-notebook-locally-on-your-machine)
 2. [On Colab](#2-Running-the-notebook-on-Colab)
@@ -11,7 +11,7 @@ We describe 3 ways how you can run this notebook:
 ## 1. Running the notebook locally on your machine
 
 We are using [Python3](https://www.python.org/) and [Jupyter notebook](https://jupyter.org/install).
-The latter, as many other packages that we are using, can be installed by [pip](https://pip.pypa.io/en/stable/), the package installer for Python.
+The latter, as many other packages we are using, can be installed via [pip](https://pip.pypa.io/en/stable/), the package installer for Python.
 
 After installing Jupyter notebook, download the [MLFF.ipynb](./MLFF.ipynb), [open it](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html) and follow the instructions in the `Installation of softwares` section to install the required packages.
 
@@ -23,7 +23,7 @@ It also has a bunch of Python packages pre-installed so it is a convenient way t
 
 Use [this link](https://colab.research.google.com/drive/1bYlVBEH32tVemb_ZC-gNE2ucMHx6sTF1) to access the Colab version of the notebook.
 
-NOTE: there is a limitation of using this approach as it is currently not supported in Colab to visualize structures and MD trajectories.
+NOTE: there is a limitation of using this approach as visualizing structures and MD trajectories is currently not supported in Colab.
 
 ## 3. Running the notebook from Docker
 
