@@ -13,7 +13,7 @@ We describe 3 ways you can run this notebook:
 We are using [Python3](https://www.python.org/) and [Jupyter notebook](https://jupyter.org/install).
 The latter, as many other packages we are using, can be installed via [pip](https://pip.pypa.io/en/stable/), the package installer for Python.
 
-After installing Jupyter notebook, download the [MLFF.ipynb](./MLFF.ipynb), [open it](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html) and follow the instructions in the `Installation of softwares` section to install the required packages.
+After installing Jupyter notebook, download the [MLFF.ipynb](./MLFF.ipynb), [open it](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html) by typing `jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000` in a terminal and follow the instructions in the `Installation of softwares` section to install the required packages.
 
 ## 2. Running the notebook on Colab
 
@@ -80,7 +80,7 @@ NOTE: make sure that Docker has sufficient memory allocation (i.e. at least 16 G
 Once you are running a container as described above, you can start a notebook in the working directory (`/home/MLFF_tutorial`):
 
 ```
-jupyter notebook --no-browser --ip=0.0.0.0 --port=9999 --allow-root
+jupyter notebook --no-browser --ip=0.0.0.0 --port=9999 --allow-root --NotebookApp.iopub_data_rate_limit=10000000
 ```
 
 After the server started, it should print out something like this:
