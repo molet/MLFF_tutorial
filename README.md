@@ -15,7 +15,7 @@ The latter, as many other packages we are using, can be installed via [pip](http
 
 After installing Jupyter notebook, download the [MLFF.ipynb](./MLFF.ipynb), [open it](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html) by typing
 ```
-jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000 MLFF.ipynb
 ```
 in a terminal and follow the instructions in the `Installation of softwares` section to install the required packages.
 
